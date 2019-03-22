@@ -1,0 +1,258 @@
+body
+{
+    margin: 0%;
+    padding: 0%;
+    
+	background-size: 20%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+    font-family: 'Comfortaa', cursive;
+}
+
+@font-face {
+    font-family: 'Comfortaa', cursive;
+    src: url('Comfortaa-Regular.ttf');
+}
+
+#background
+{
+    width: 100%;
+    height: 100%;
+	background-color: #2b1d2c;
+	background-image: url(background1.gif);
+    background-size: cover;
+    filter: blur(1px);
+    position: fixed;
+    left: 0%;
+    right: 0%;
+    z-index: 1;
+    background-position: 0% 0%;
+
+    display: block;
+}
+
+.astuce{
+    position: absolute;
+    left: 0%;
+    top: 0%; 
+    font-size: 22pt;
+    margin-left: 17%;
+    margin-top: 2%;
+    color : #FFFFFF;
+}
+
+.infos{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    font-size: 12.5pt;
+    margin-top: 7%;
+    margin-left: 21%;
+    color : rgb(146, 184, 255);
+}
+
+#carre {
+    margin-top: 2.8%;
+    margin-left: 8.5%;
+    width: 0.4%;
+    height: 3%;
+    position: fixed;
+    background: rgba(109, 109, 109);
+}
+
+#rectangle {
+    margin-top: 40%;
+    width: 45%;
+    height: 11%;
+    position: fixed;
+    background: rgba(29, 29, 29, 0.705);
+}
+
+.loading {
+    width: 190px;
+    height: 190px;
+    margin-left: 9500%;
+    margin-top: 500%;
+}
+
+body {
+    font-size: 62.5%;
+    font-family: 'Comfortaa', cursive;
+}
+  
+.animation-box {
+    width: 7005%;
+    height: 25000%;
+    background-color: rgba(0, 0, 255, 0);
+    margin-left: -1000%;
+    margin-top: -3100%;
+    overflow: hidden;
+    position: relative;
+}
+  
+.animation-container {
+    width: 50%;
+    height: 50%;
+}
+  
+@keyframes fadeInOut {
+    0% {
+      position: absolute;
+      top: 0%;
+      opacity: 0;
+}
+  
+75% {
+      position: absolute;
+      top: 25%;
+      opacity: 1;
+}
+  
+100% {
+      opacity: 0;
+}
+
+}  
+@keyframes fadeInOut {
+    0% {
+      position: absolute;
+      bottom: -5rem;
+      opacity: 0;
+}
+
+75% {
+      position: absolute;
+      bottom: 25%;
+      opacity: 1;
+}
+  
+100% {
+      opacity: 0;
+}
+    
+}
+  
+@keyframes fadeInOut {
+    0% {
+      position: absolute;
+      top: -3rem;
+      opacity: 0;
+    }
+  
+75% {
+      position: absolute;
+      top: 45%;
+      opacity: 1;
+}
+  
+100% {
+      opacity: 0;
+}
+
+}
+  
+@keyframes fadeInOut {
+    0% {
+      position: absolute;
+      right: -3rem;
+      opacity: 0;
+    }
+  
+75% {
+      position: absolute;
+      right: 10rem;
+      opacity: 1;
+}
+  
+100% {
+      opacity: 0;
+      right: 10rem;
+}
+
+}
+  
+@keyframes fadeInOut {
+    0% {
+      opacity: 0;
+}
+  
+45% {
+      opacity: 1;
+}
+ 
+100% {
+      opacity: 0%;
+}
+
+}
+  
+.texte-un {
+    position: absolute;
+    left: 0%;
+    top: 0%; 
+    font-size: 14pt;
+    margin-left: 17%;
+    margin-top: 3%;
+    opacity: 0;
+    animation-name: fadeInOut;
+    animation-duration: 10s;
+    color : rgb(146, 184, 255);
+}
+  
+.texte-deux {
+    position: absolute;
+    left: 0%;
+    top: 0%; 
+    font-size: 14pt;
+    margin-left: 17%;
+    margin-top: 3%;
+    opacity: 0;
+    animation-name: fadeInOut;
+    animation-delay: 11s;
+    animation-duration: 10s;
+    color : rgb(146, 184, 255);
+}
+  
+.texte-trois {
+    position: absolute;
+    left: 0%;
+    top: 0%; 
+    font-size: 14pt;
+    margin-left: 17%;
+    margin-top: 3%;
+    opacity: 0;
+    animation-name: fadeInOut;
+    animation-delay: 21s;
+    animation-duration: 10s;
+    color : rgb(146, 184, 255);
+}
+  
+.texte-quatre {
+    position: absolute;
+    left: 0%;
+    top: 0%; 
+    font-size: 14pt;
+    margin-left: 17%;
+    margin-top: 3%;
+    opacity: 0;
+    color : rgb(146, 184, 255);
+    animation-name: fadeInOut;
+    animation-delay: 31s;
+    animation-duration: 10s;
+}
+  
+.texte-cinq {
+    position: absolute;
+    left: 0%;
+    top: 0%; 
+    font-size: 14pt;
+    margin-left: 17%;
+    margin-top: 3%;
+    opacity: 0;
+    color : rgb(146, 184, 255);
+    animation-name: fadeInOut;
+    animation-delay: 41s;
+    animation-duration: 120s;
+}
